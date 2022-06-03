@@ -7,7 +7,7 @@
     text-transform: uppercase;
 }
 header{
-    background-image:url("https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:aaf75fc2-eba3-41ec-bc48-de80d0615154;revision=0?component_id=811cc325-03fa-4b5b-886e-a5a3b618cfce&api_key=CometServer1&access_token=1653185270_urn%3Aaaid%3Asc%3AUS%3Aaaf75fc2-eba3-41ec-bc48-de80d0615154%3Bpublic_aacf5c0174c6e861c8048e33c25f33eff6efe804");
+    background-image:url("imagens/headerBG.png");
     width:100%;
     height: 555px;
     background-repeat: no-repeat;
@@ -46,7 +46,7 @@ header{
     margin-right: 120px;
 }
 main{
-    background-image: url("https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:aaf75fc2-eba3-41ec-bc48-de80d0615154;revision=0?component_id=ed62ce7c-71cd-453c-b099-0cf582350973&api_key=CometServer1&access_token=1653185270_urn%3Aaaid%3Asc%3AUS%3Aaaf75fc2-eba3-41ec-bc48-de80d0615154%3Bpublic_aacf5c0174c6e861c8048e33c25f33eff6efe804");
+    background-image: url("imagens/main\ background.png");
     height:1050px;
     background-repeat: no-repeat;
     background-size:contain;
@@ -56,7 +56,7 @@ main{
 }
 .start2play{
     position: relative;
-    background-image: url("https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:aaf75fc2-eba3-41ec-bc48-de80d0615154;revision=0?component_id=26ca79d7-50ac-4228-8321-97bbc45f15a8&api_key=CometServer1&access_token=1653185270_urn%3Aaaid%3Asc%3AUS%3Aaaf75fc2-eba3-41ec-bc48-de80d0615154%3Bpublic_aacf5c0174c6e861c8048e33c25f33eff6efe804");
+    background-image: url("imagens/start2playbg.png");
     background-repeat: no-repeat;
     background-size: cover;
     top: -50px;
@@ -195,6 +195,10 @@ main{
     font-weight: bold;
     font-size: 18px;
 }
+.menu-list li:hover{
+    background-color: orangered;
+    cursor:pointer
+}
 .rey{
     display: flex;
     margin-left: 50px;
@@ -204,7 +208,206 @@ main{
 }
 .assets{
     background-color: rgb(39, 38, 38);
-    height:1000px;
+    height:1600px;
     width:100%;
     margin-top: -100px;
+    display: flex;
+    justify-content: center;
+}
+.assets-box {
+    margin-top: 160px;
+    width:81%;
+    height:700px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.assets-box h2{
+    color:white;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    width:100%;
+}
+.assetsgroup div{
+    width:50%;
+    display: flex;
+}
+.assetsgroup{
+    display:flex;
+}
+.assetsgroup img{
+    width:270px;
+}
+.group1 img{
+    width:540px;
+    margin-left: 5px;
+}
+.group2{
+    width:50%;
+    display: flex;
+    flex-wrap: wrap;
+    height:283px;
+    margin-left: -2px;
+}
+.hierarquia img{
+    width:99%;
+    margin-top: 50px;
+}
+.hierarquia p{
+    width:400px;
+    font-size: 10px;
+    color: white;
+    text-align: right;
+    margin-right: -10px;
+    text-transform: none;
+    margin-left: 679px;
+}
+.HowToPlay{
+    width:75%;
+    height:500px;
+    display: flex;
+    margin: -250px auto;
+    flex-wrap: wrap;
+}
+.HowToPlay img{
+    height: 600px;
+}
+.HowToPlay h2{
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.Step2step{
+    display: flex;
+    height: 200px;
+    width:900px;
+    margin-top: -200px;
+    margin-left: 400px;
+    justify-content: space-evenly;
+}
+.step1{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    vertical-align: middle;
+}
+.step1 h3{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-left: -30px;
+}
+.step1 p{
+    width: 105px;
+    margin-top: 20px;
+    font-size: 10px;
+    text-align: center;
+    margin: 20px;
+}
+.step1 button{
+    background-color: red;
+    color: white;
+    border: none;
+    width: 160px;
+    height: 50px;
+    justify-self: center;
+    margin-left: -10px;
+}
+.step1 h6{
+    height: 3px;
+    width: 100px;
+    background-color: red;
+    margin: 10px 20px;
+}
+.step2{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    vertical-align: middle;
+}
+.step2 h3{
+    text-align: center;
+    font-size: 36px;
+    font-weight: lighter;
+    margin-left: -30px;
+}
+.step2 p{
+    width: 105px;
+    margin-top: 20px;
+    font-size: 10px;
+    text-align: center;
+    margin: 20px;
+}
+.step2 button{
+    background-color: black;
+    color: white;
+    border: none;
+    width: 160px;
+    height: 50px;
+    justify-self: center;
+    margin-left: -10px;
+}
+.step2 h6{
+    height: 3px;
+    width: 100px;
+    background-color: black;
+    margin: 10px 20px;
+}
+.step3{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    vertical-align: middle;
+    margin-top: px;
+}
+.step3 h3{
+    text-align: center;
+    font-size: 36px;
+    font-weight: lighter;
+    margin-left: -30px;
+    margin-top: -5px;
+}
+.step3 p{
+    width: 105px;
+    margin-top: 20px;
+    font-size: 10px;
+    text-align: center;
+    margin: 20px;
+}
+.step3 button{
+    background-color: black;
+    color: white;
+    border: none;
+    width: 160px;
+    height: 50px;
+    justify-self: center;
+    margin-left: -10px;
+    margin-bottom: 10px;
+}
+.step3 h6{
+    height: 3px;
+    width: 100px;
+    background-color: black;
+    margin: 10px 20px;
+}
+footer{
+    display: flex;
+    margin-top: 2200px;
+}
+.mobileapps{
+    display: flex;
+    background-color: rgb(248, 95, 95);
+    width:60%;
+    height: 300px;
+    display: flex;
+}
+.Vader{
+    display: flex;
+}
+.Vader img{
+    height: 400px;
 }
