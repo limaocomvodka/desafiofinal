@@ -402,12 +402,33 @@ footer{
     display: flex;
     background-color: rgb(248, 95, 95);
     width:60%;
-    height: 300px;
-    display: flex;
+    height: 400px;
+    flex-direction: column;
+    color:white;
+    padding: 40px 80px;
+}
+.mobileapps p{
+    font-size: 8px;
 }
 .Vader{
     display: flex;
 }
 .Vader img{
-    height: 400px;
+    height: 450px;
+    margin-top: -100px;
+}
+figure{
+    width:150px;
+    height:85px;
+    margin-left: 20px;
+}
+.appsbuttons img{
+    width:120px;
+    height:45px;
+    margin-top: 20px;
+}
+footer h6{
+    height:3px;
+    width:250px;
+    background-color: red;
 }
